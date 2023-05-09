@@ -1,34 +1,136 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Under construction
 
-## Getting Started
+# 👷‍♂️🏗️🚧⚠️
 
-First, run the development server:
+# Real-Time Messenger App Clone
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Technologies used:
+
+Language:
+
+-   Typescript
+
+Full Stack Framework:
+
+-   Next.js 13 with APP folder
+
+Frontend packages:
+
+-   React 18
+-   Tailwind CSS (_npm install -D tailwindcss postcss autoprefixer_, _npx tailwindcss init -p_)
+-   Cloudinary
+
+Backend packages:
+
+Data Management
+
+-   Prisma (_npm install -D prisma_, _npx prisma init_)
+
+Database
+
+-   MongoDB Atlas
+
+Authentication
+
+-   Auth.js --> But "@next-auth/prisma-adapter" 2023, which is the official primsa adapter for Auth.js / NextAuth.js. (Serves to loggin using several social media profiles/accounts like github, google, facebook, etc.) (npm install next-auth @next-auth/prisma-adapter)
+
+### Key Features
+
+-   Real-time messaging using Pusher
+-   Message notifications and alerts
+-   Tailwind design for sleek UI
+-   Tailwind animations and transition effects
+-   Full responsiveness for all devices
+-   Credential authentication with NextAuth
+-   Google authentication integration
+-   Github authentication integration
+-   File and image upload using Cloudinary CDN
+-   Client form validation and handling using react-hook-form
+-   Server error handling with react-toast
+-   Message read receipts
+-   Online/offline user status
+-   Group chats and one-on-one messaging
+-   Message attachments and file sharing
+-   User profile customization and settings
+-   How to write POST, GET, and DELETE routes in route handlers (app/api)
+-   How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
+-   Handling relations between Server and Child components in a real-time environment
+-   Creating and managing chat rooms and channels
+
+### Instructions
+
+1. Environment setup
+2. Auth setup
+3. Auth UI
+4. MongoDB, Prisma setup
+5. NextAuth setup
+6. Register Functionality
+7. Login Functionality and Social Login (Google and Github)
+8. Sidebar, Navigation and Layout
+9. Users screen and Conversations screen, Conversation Creation
+10. Messages creation, Message Image upload
+11. Profile Drawer
+12. Settings functionality, Modal component
+13. Group chat functionality, Image Modal, Loading states
+14. Real time messages, conversations, read receipts and active status with Pusher
+15. Deploy to Vercel, fix Google and Github social sign in in deployment
+
+### Prerequisites
+
+**Node version 14.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/AntonioErdeljac/next13-messenger.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install packages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Setup .env file
 
-## Learn More
+```js
+DATABASE_URL=
+NEXTAUTH_SECRET=
 
-To learn more about Next.js, take a look at the following resources:
+NEXT_PUBLIC_PUSHER_APP_KEY=
+PUSHER_APP_ID=
+PUSHER_SECRET=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+GITHUB_ID=
+GITHUB_SECRET=
 
-## Deploy on Vercel
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Setup Prisma
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```shell
+npx prisma db push
+
+```
+
+### Start the app
+
+```shell
+npm run dev
+```
+
+## Available commands
+
+Running commands with npm `npm run [command]`
+
+| command | description                              |
+| :------ | :--------------------------------------- |
+| `dev`   | Starts a development instance of the app |
+
+## Credits
+
+[Code with Antonio](https://www.youtube.com/watch?v=PGPGcKBpAk8)
