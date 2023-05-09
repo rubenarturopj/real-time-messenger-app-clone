@@ -2,7 +2,7 @@
 
 # 👷‍♂️🏗️🚧⚠️
 
-### Create app
+# Create app
 
 1. In the terminal run:
 
