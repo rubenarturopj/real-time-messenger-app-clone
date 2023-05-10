@@ -18,7 +18,7 @@ Frontend packages:
 
 -   React 18
 -   Tailwind CSS (_npm install -D tailwindcss postcss autoprefixer_, _npx tailwindcss init -p_)
--   Cloudinary
+-   Cloudinary (package and CDN) API (_https://cloudinary.com/_, _npm install next-cloudinary_)
 
 Backend packages:
 
@@ -33,6 +33,10 @@ Database
 Authentication
 
 -   Auth.js --> But "@next-auth/prisma-adapter" 2023, which is the official primsa adapter for Auth.js / NextAuth.js. (Serves to loggin using several social media profiles/accounts like github, google, facebook, etc.) (npm install next-auth @next-auth/prisma-adapter)
+
+Real time messaging and notifications
+
+-   Pusher
 
 ### Key Features
 
@@ -59,21 +63,21 @@ Authentication
 
 ### Instructions
 
-1. Environment setup
-2. Auth setup
-3. Auth UI
-4. MongoDB, Prisma setup
-5. NextAuth setup
-6. Register Functionality
-7. Login Functionality and Social Login (Google and Github)
-8. Sidebar, Navigation and Layout
-9. Users screen and Conversations screen, Conversation Creation
-10. Messages creation, Message Image upload
-11. Profile Drawer
-12. Settings functionality, Modal component
-13. Group chat functionality, Image Modal, Loading states
-14. Real time messages, conversations, read receipts and active status with Pusher
-15. Deploy to Vercel, fix Google and Github social sign in in deployment
+1. [Environment setup](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/01_environment_setup.md)
+2. [Auth setup](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/02_auth.md)
+3. [Auth UI](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/03_auth_UI.md)
+4. [MongoDB, Prisma setup](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/04_mongodb_prisma.md)
+5. [NextAuth setup](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/05_nextauth.md)
+6. [Register Functionality](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/06_register.md)
+7. [Login Functionality and Social Login (Google and Github)](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/07_login.md)
+8. [Sidebar, Navigation and Layout](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/08_sidebar_navigation_layout.md)
+9. [Users screen and Conversations screen, Conversation Creation](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/09_user_screen_conversations_screen.md)
+10. [Messages creation, Message Image upload](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/10_messenger_creation_message_image.md)
+11. [Profile Drawer](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/11_profile_drawer.md)
+12. [Settings functionality, Modal component](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/12_settings_func_modal.md)
+13. [Group chat functionality, Image Modal, Loading states](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/13_group_chat_imagemodal_loadingstate.md)
+14. [Real time messages, conversations, read receipts and active status with Pusher](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/14_real_time_messages_conversations.md)
+15. [Deploy to Vercel, fix Google and Github social sign in in deployment](https://github.com/rubenarturopj/real-time-messenger-app-clone/blob/main/01_instructions/15_deploy_vercel_github_google_auth.md)
 
 ### Prerequisites
 
