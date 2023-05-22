@@ -18,7 +18,11 @@ Frontend packages:
 
 -   React 18
 -   Tailwind CSS (_npm install -D tailwindcss postcss autoprefixer_, _npx tailwindcss init -p_)
+-   Tailwind CSS Forms (_npm i @tailwindcss/forms_)
 -   Cloudinary (package and CDN) API (_https://cloudinary.com/_, _npm install next-cloudinary_)
+-   React-icons
+-   React-hook-form
+-   clsx: A tiny (228B) utility for constructing className strings conditionally. (_npm install --save clsx_)
 
 Backend packages:
 

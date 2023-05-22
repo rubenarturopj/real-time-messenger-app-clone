@@ -1,7 +1,3 @@
-# Under construction
-
-# 👷‍♂️🏗️🚧⚠️
-
 # Auth set up
 
 ### Changing PAGE.TSX directory

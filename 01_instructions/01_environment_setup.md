@@ -16,6 +16,8 @@ In the prompt choose:
 | app router / app directory | yes    |
 | alias                      | no     |
 
+When we don't create an alias, then we by default we will access all paths for the imports with "@/app/morefolders...".
+
 2. run your app and go to `localhost:3000` to see it.
 
 ```sh
